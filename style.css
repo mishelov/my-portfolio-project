@@ -7,6 +7,7 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     color: #6c6f73;
+    font-family: 'Raleway', sans-serif;
 }
 h1,h2,h3,h4,h5 {
     color: #333;
@@ -18,9 +19,17 @@ h6 {
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
+
 img {
     max-width: 100%;
 }
+.navbar-custom {
+    background-color: black;
+}
+.navbar-brand {
+    color: white;
+}
+
 .blockquote {
     font-size: 1.6rem;
     color: #333;
@@ -32,7 +41,7 @@ img {
 }
 
 #stage {
-    background: url('img/stage.jpg') center center no-repeat;
+    background: url('img/coffee-img.jpg') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
@@ -59,7 +68,11 @@ img {
 }
 
 .feature-content img {
-    margin-bottom: -8rem;
+    margin-bottom: 1rem;
+    
+}
+.feature-content .card {
+    color:#262f36;
 }
 .feature-dark {
     background: #262f36;
