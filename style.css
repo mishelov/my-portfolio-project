@@ -10,7 +10,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 h1,h2,h3,h4,h5 {
-    color: #333;
+    color: white;
 }
 
 h6 {
@@ -19,6 +19,7 @@ h6 {
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
+
 
 img {
     max-width: 100%;
@@ -36,9 +37,7 @@ img {
     border: none;
     padding: 0;
 }
-.blockquote-footer {
-    margin: 1rem 0 0;
-}
+
 
 #stage {
     background: url('img/coffee-img.jpg') center center no-repeat;
@@ -63,7 +62,7 @@ img {
     text-transform: uppercase;
 }
 .feature-content {
-    padding: 8rem 0;
+    padding: 5rem 0;
     overflow: hidden;
 }
 
@@ -84,12 +83,15 @@ img {
 .feature-alt {
     background: #f0f0f0;
 }
-
-#feature-four .feature-content {
-    padding: 0;
+#feature-three, #feature-four {
+    background: #262f36;
+    color: white;
+}
+#feature-one {
+    text-align: justify;
 }
 
-#feature-five img {
+#feature-four img {
     margin-top: 2rem;
 }
 
@@ -106,6 +108,7 @@ img {
 
 #main-footer a {
     color: #6c6f73;
+    
 }
 
 
