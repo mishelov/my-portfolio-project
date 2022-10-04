@@ -19,10 +19,19 @@ h6 {
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
-
-
 img {
     max-width: 100%;
+}
+nav {
+    font-family: 'Lobster', cursive;
+    opacity: 0.9;
+}
+.copy-right {
+    font-family: 'Lobster', cursive;
+}
+
+.logo {
+    border-radius: 20px;
 }
 .navbar-custom {
     background-color: black;
@@ -57,9 +66,18 @@ img {
 }
 
 #stage-caption h1 {
-    color: white;
+    color: rgb(239, 230, 230);
     font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+h2 {
+    font-family: 'Lobster', cursive;
+}
+#stage-caption p {
+    color: rgb(239, 230, 230);
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
 }
 .feature-content {
     padding: 5rem 0;
@@ -68,7 +86,6 @@ img {
 
 .feature-content img {
     margin-bottom: 1rem;
-    
 }
 .feature-content .card {
     color:#262f36;
@@ -97,18 +114,19 @@ img {
 
 #main-footer {
     background: #262f36;
-    color: white;
-    padding: 6rem 0;
-    font-size: 0.8rem;
+    color: #6c6f73;
 }
 
 #main-footer h6 {
     color: #718fa9;
 }
 
-#main-footer a {
+#main-footer a, i {
     color: #6c6f73;
-    
+    font-size: x-large;
+}
+#main-footer li {
+    padding: 5px;
 }
 
 
