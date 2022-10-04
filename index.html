@@ -11,8 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
-    <script src="https://kit.fontawesome.com/17191b29a1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/17191b29a1.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link
       rel="stylesheet"
@@ -33,7 +41,7 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">
-        <img src="img/or-logo.png" alt="logo" height="40px" />
+        <img class="logo" src="img/or-logo.png" alt="logo" height="40px" />
       </a>
       <button
         class="navbar-toggler"
@@ -48,13 +56,13 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="nav navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#feature-one"
-              >About<span class="sr-only">(current)</span></a
+              >About<span class="sr-only"></span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Download CV</a>
+            <a class="nav-link" href="#feature-six">My Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#main-footer">Contacts</a>
@@ -69,14 +77,14 @@
         <p>Front-End Developer</p>
       </div>
     </div>
-    
+
     <section id="feature-one" class="feature-dark">
       <div class="container">
         <div class="row feature-content">
           <div class="col-lg-6">
             <img
               class="rounded mx-auto d-block"
-              src="img/ogi green card.JPG"
+              src="img/ogy-modified.JPG"
               alt=""
             />
           </div>
@@ -84,14 +92,14 @@
             <h2>About Me</h2>
 
             <p class="lead">
-              Hello, I'm Ognyan. In recent years I have been working in the field
-              of tourism. I decided to retrain in the IT sector, successfully
-              completed a course in July in Java programming at Soft-Academy
-              Sofia, the course covered: OOP, Principles of OOP, Database,
-              Text-Processing. Successfully completed HTML course at w3schools,
-              increased my interest in Front End Programming. I started training
-              in various online platforms and gained experience in HTML, CSS and
-              knowledge of JavaScript and Bootstrap.
+              Hello, I'm Ognyan. In recent years I have been working in the
+              field of tourism. I decided to retrain in the IT sector,
+              successfully completed a course in July in Java programming at
+              Soft-Academy Sofia, the course covered: OOP, Principles of OOP,
+              Database, Text-Processing. Successfully completed HTML course at
+              w3schools, increased my interest in Front End Programming. I
+              started training in various online platforms and gained experience
+              in HTML, CSS and knowledge of JavaScript and Bootstrap.
             </p>
           </div>
         </div>
@@ -202,19 +210,114 @@
       <div class="container">
         <div class="row">
           <div class="feature-content">
-            <div class="col-lg-6 d-none d-lg-block">
-              <img src="img/ipad.png" alt="ipad" />
-            </div>
-            <div class="col-lg-5 offset-lg-1">
-              <h6>The All-in-one solution</h6>
-              <h2>The art of Solution</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
-                ducimus sapiente explicabo. Repellendus animi quam laborum cum
-                praesentium, expedita eos officia placeat dolores, dolorum
-                itaque aspernatur ullam? Soluta, culpa sed.
-              </p>
-              <a href="" class="btn btn-outline-secondary btn-lg">Mangos!</a>
+            <div class="col-lg-12">
+              <h2>My Projects</h2>
+              <div class="card-columns">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src=".../100px160/"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Card title that wraps to a new line
+                    </h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+                <div class="card p-3">
+                  <blockquote class="blockquote mb-0 card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer posuere erat a ante.
+                    </p>
+                    <footer class="blockquote-footer">
+                      <small class="text-muted">
+                        Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="img/html-css-js.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer posuere erat.
+                    </p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card text-center">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This card has a regular title and short paragraphy of text
+                      below it.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img" src=".../100px260/" alt="Card image" />
+                </div>
+                <div class="card p-3 text-right">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer posuere erat a ante.
+                    </p>
+                    <footer class="blockquote-footer">
+                      <small class="text-muted">
+                        Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is another card with title and supporting text below.
+                      This card has some additional content to make it slightly
+                      taller overall.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -224,22 +327,37 @@
     <footer id="main-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">&copy; ORS 2022.</div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li><a href="">
-                <i class="fa-brands fa-github"></i>
-              </a></li>
-              <li><a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a></li>
-              <li><a href="">link 3</a></li>
-              <li><a href="">link 4</a></li>
+          <div class="col-md-7 offset-md-5">
+            <div class="copy-right">&copy; Stoyanov 2022.</div>
+            <ul class="list-inline d-flex text-center align-items-center">
+              <li>
+                <a href="https://github.com/mishelov" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ognyan-stoyanov-573854246/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+359876663394">
+                  <i class="fa-solid fa-square-phone"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:o.r.stoyanov@gmail.com">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-     <!--I need to add back to the top arrow or btn??? will see-->
+      <!--I need to add back to the top arrow or btn??? will see-->
     </footer>
 
     <script
